@@ -198,7 +198,7 @@ def ajusta_emg_func(emg_fun, emg_cvm, fs, f_c, f_orden, nombre,show=True):
     if show:
         plot_emgs(emg_fun, emg_fun_env, emg_fun_norm, emg_cvm, emg_cvm_env,
                       fs, f_c, f_orden, nombre)
-    return emg_fun_norm, emg_fun_env_f, emg_cvm_env_f
+    return emg_fun_norm
 
 def plot_emgs(emg_fun, emg_fun_env, emg_fun_norm, emg_cvm, emg_cvm_env,
               fs, f_c, f_orden,
