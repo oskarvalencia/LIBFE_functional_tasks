@@ -11,6 +11,8 @@ import matplotlib.pyplot as plt
 
 data= pd.read_csv('https://raw.githubusercontent.com/oskarvalencia/M4_DBAM/main/DBAM5/datos5.csv', skiprows=4)
 
+# Reemplazar NaN con 0
+data = data.fillna(0)
 #%%
 
 def rigidez_(data, side):
