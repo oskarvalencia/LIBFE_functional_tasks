@@ -92,11 +92,11 @@ def rigidez_(data, side):
     axs[1,1].set_xlabel('Fle/Ext cadera [°]')
     axs[1,1].legend(loc='upper right')
     
-    return f'''Lado {str(side)}
+    return print(f'''Lado {str(side)}
     \nmomento tobillo vs f/e tobillo {d_pend:.4f} N/kg/m
     \nmomento tobillo vs f/e tobillo {d_pendt:.4f} Nm/kg/°
     \nmomento rodilla vs f/e rodilla {d_pendr:.4f} Nm/kg/°
-    \nmomento cadera vs f/e cadera {d_pendc:.4f} Nm/kg/°'''
+    \nmomento cadera vs f/e cadera {d_pendc:.4f} Nm/kg/°''')
 
 #%%
 
