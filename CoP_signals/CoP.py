@@ -28,7 +28,7 @@ new_cols = np.hstack((CoPOA.columns.difference(cols_to_move), cols_to_move))
 df = CoPOA.loc[:, new_cols]
 
 # Scaling and converting data to centimeters
-COP1 = (df.iloc[:, 1:3].values) * 10
+COP1 = (df.iloc[:, 1:3].values) * 100
 
 # Displaying the reordered and scaled COP data
 COP1
