@@ -23,7 +23,7 @@ CoPOA
 #%%
 
 # Reordering columns to move 'CoPy' and 'CoPx' to the end
-cols_to_move = ['CoPy', 'CoPx']
+cols_to_move = ['COPy', 'COPx']
 new_cols = np.hstack((CoPOA.columns.difference(cols_to_move), cols_to_move))
 df = CoPOA.loc[:, new_cols]
 
