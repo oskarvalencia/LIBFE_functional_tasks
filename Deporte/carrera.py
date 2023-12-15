@@ -51,7 +51,7 @@ def select_events(data, side, event_type, capture_frequency):
     return selected_data, adjusted_values
 
 
-normal = pd.read_csv('Curvas_promedio_Fukuchi.csv', sep=';')
+normal = pd.read_csv('https://raw.githubusercontent.com/oskarvalencia/M4_DBAM/main/Deporte/Curvas_promedio_Fukuchi.csv', sep=';')
 
 #%%
 
